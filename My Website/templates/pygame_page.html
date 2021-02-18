@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>{%block content %}Pygame Page{%endblock%}</title>
+    <style>
+        body {
+            background: linear-gradient(to right, rgb(244, 204, 210), rgb(244, 240, 240));
+            font-family: sans-serif;
+        }
+    </style>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <center>
+        <h1>Pygame Page</h1>
+        <br>
+        <h2>
+            This page will show you how you can do some
+            pretty complecated pygame code like collision detection,
+            and more.
+        </h2>
+        <br><br>
+        <h2>
+            <u>Collision Detection</u>
+        </h2>
+        <br>
+        <h3>
+            Collision Detection is pretty hard to get done correctly.
+            We are not going to be aiming for pixel perfect collisions
+            because they are pretty complecated and require a lot of math.
+            The easiest method of checking for collisions is by using the
+            colliderect method. The code to do that is given down below.
+            <br><br><br><br>
+            if <i>Place Your Object Here</i>.colliderect(<i>The Other Object Here</i>):
+            <br>
+            <i>Place Your Action Here</i>
+        </h3>
+        <br><br>
+        <h2>
+            Getting the height of surfaces
+        </h2>
+        <br>
+        <h3>
+            Getting the height of surfaces is very crucial and
+            needs to be done a lot of times when dealing with the module
+            pygame. It is very easy to do this. You need to
+            simply implement the get_height() method on your
+            sprite.
+            <br><br><br><br>
+            <i>Place Your Sprite Name Here</i>.get_height()
+        </h3>
+    </center>
+</body>
+</head>
+
+</html>
